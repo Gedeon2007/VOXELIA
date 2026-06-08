@@ -1,1 +1,1 @@
-{"framework": "vite", "buildCommand": "bun run build", "outputDirectory": "dist", "rewrites": [{"source": "/(.*)", "destination": "/"}]}
+{"version": 2, "cleanUrls": true, "routes": [{"src": "/[^.]+", "dest": "/", "status": 200}, {"src": "/(.*)", "dest": "/$1"}]}
